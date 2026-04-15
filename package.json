@@ -1,0 +1,32 @@
+{
+  "name": "openclaw-memory-mcp",
+  "version": "2.0.0",
+  "description": "Remote HTTP MCP server for openclaw — persistent memory, context, knowledge base, and conversation history",
+  "type": "module",
+  "main": "server.js",
+  "author": "Imperial TeK. Solutions <ITSolutions_mgnt@proton.me>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "memory",
+    "sqlite",
+    "http",
+    "ai",
+    "openclaw"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}

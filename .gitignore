@@ -1,0 +1,9 @@
+.env
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+server.js.bak
+.claude/
+.remember/
+.codex
